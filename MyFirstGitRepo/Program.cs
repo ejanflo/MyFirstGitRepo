@@ -20,6 +20,22 @@ foreach (var number in numbers)
 // Adding a new feature to print the sum of numbers
 int sum = numbers.Sum();
 Console.WriteLine($"Sum of numbers: {sum}");
+
 // Adding a new feature to print the average of numbers
 double average = numbers.Average();
 Console.WriteLine(average > 3 ? "Average is greater than 3" : "Average is less than or equal to 3");
+
+// Adding a new feature to print the maximum number
+int max = numbers.Max();
+Console.WriteLine($"Maximum number: {max}");
+
+// Adding a new feature to print the minimum number
+int min = numbers.Min();
+Console.WriteLine($"Minimum number: {min}");
+
+// Adding a new feature to print the count of numbers
+int count = numbers.Count();
+Console.WriteLine($"Count of numbers: {count}");
+
+
+
